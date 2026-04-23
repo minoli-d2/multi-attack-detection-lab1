@@ -1,0 +1,32 @@
+Apr 23 09:00:01 server sshd[1001]: Accepted password for alice from 192.168.1.10 port 51001
+Apr 23 09:00:05 server sshd[1002]: session opened for user alice by (uid=0)
+Apr 23 09:01:10 server sshd[1003]: Accepted password for bob from 192.168.1.11 port 51002
+Apr 23 09:01:12 server sudo: bob : COMMAND=/bin/ls /home
+Apr 23 09:01:15 server sudo: bob : COMMAND=/bin/cat /etc/passwd
+Apr 23 09:02:01 server sshd[1101]: Failed password for admin from 45.77.88.19 port 40001
+Apr 23 09:02:03 server sshd[1102]: Failed password for root from 45.77.88.19 port 40002
+Apr 23 09:02:05 server sshd[1103]: Failed password for test from 45.77.88.19 port 40003
+Apr 23 09:02:07 server sshd[1104]: Failed password for user from 45.77.88.19 port 40004
+Apr 23 09:02:09 server sshd[1105]: Failed password for guest from 45.77.88.19 port 40005
+Apr 23 09:05:01 server sshd[1201]: Failed password for root from 185.234.219.12 port 41001
+Apr 23 09:05:03 server sshd[1202]: Failed password for root from 185.234.219.12 port 41002
+Apr 23 09:05:05 server sshd[1203]: Failed password for root from 185.234.219.12 port 41003
+Apr 23 09:05:07 server sshd[1204]: Failed password for root from 185.234.219.12 port 41004
+Apr 23 09:05:09 server sshd[1205]: Failed password for root from 185.234.219.12 port 41005
+Apr 23 09:05:11 server sshd[1206]: Failed password for root from 185.234.219.12 port 41006
+Apr 23 09:05:13 server sshd[1207]: Failed password for root from 185.234.219.12 port 41007
+Apr 23 09:05:15 server sshd[1208]: Failed password for root from 185.234.219.12 port 41008
+Apr 23 09:10:20 server sshd[1301]: Failed password for admin from 103.56.22.90 port 42001
+Apr 23 09:10:22 server sshd[1302]: Failed password for admin from 103.56.22.90 port 42002
+Apr 23 09:10:25 server sshd[1303]: Failed password for admin from 103.56.22.90 port 42003
+Apr 23 09:15:01 server sshd[1401]: Accepted password for charlie from 192.168.1.20 port 52010
+Apr 23 09:15:05 server sudo: charlie : COMMAND=/bin/useradd attacker
+Apr 23 09:15:10 server sudo: charlie : COMMAND=/bin/passwd attacker
+Apr 23 09:15:15 server sudo: charlie : COMMAND=/bin/mv /etc/sudoers /tmp/
+Apr 23 09:20:01 server sshd[1501]: Accepted password for david from 192.168.1.21 port 52020
+Apr 23 09:20:05 server sudo: david : COMMAND=/usr/bin/apt update
+Apr 23 09:20:10 server sudo: david : COMMAND=/usr/bin/apt upgrade
+Apr 23 09:25:01 server sshd[1601]: Failed password for root from 66.23.11.45 port 43001
+Apr 23 09:25:03 server sshd[1602]: Failed password for root from 66.23.11.45 port 43002
+Apr 23 09:30:01 server sshd[1701]: Accepted password for eve from 192.168.1.22 port 52030
+Apr 23 09:30:05 server sudo: eve : COMMAND=/bin/systemctl restart nginx
