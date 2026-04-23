@@ -29,22 +29,16 @@ The analysis simulates a real-world Security Operations Center (SOC) workflow us
 ## Project Structure
 
 linux-ssh-log-analysis/
-│
 ├── logs/
 │ └── attacks_log.log # Raw log dataset
-│
 ├── analysis/
 │ ├── commands.sh # Commands used during investigation
 │ └── analysis_notes.md # Step-by-step analysis and reasoning
-│
 ├── reports/
 │ └── incident_report.md # Final SOC-style incident report
-│
 ├── screenshots/ # Evidence screenshots
-│
 ├── session.log # Terminal session recording
 ├── README.md
-
 
 ---
 
