@@ -29,8 +29,10 @@ The analysis simulates a real-world Security Operations Center (SOC) workflow us
 ## Project Structure
 
 linux-ssh-log-analysis/
+
 ├── logs/
-│   └── attacks_log.log
+│   
+└── attacks_log.log
 
 │
 ├── analysis/
