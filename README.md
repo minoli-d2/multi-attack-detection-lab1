@@ -26,22 +26,22 @@ The analysis simulates a real-world Security Operations Center (SOC) workflow us
 
 ---
 
-## Project Structure
+##  Project Structure
 
-👉 Click any file to open it on GitHub:
-
-linux-ssh-log-analysis/
-📁 logs/attacks_log.log
-📁 analysis
-  📄 commands.sh
-  📄 analysis_notes.md
-📁 reports
-  📄 incident_report.md
-📁 screenshots/
-📄 session.log
-📄 README.md
-
----
+```
+multi-attack-detection-lab1/
+├── logs/
+│   └── attacks_log.log        # Raw attack logs
+├── analysis/
+│   ├── commands.sh            # Commands used during investiigation
+│   └── analysis_notes.md      # Step-by-Step analysis and reasoning
+├── reports/
+│   └── incident_report.md     # Final report
+├── screenshots/               # Evidence screenshots
+│   └── (images or captures)
+├── session.log                # Terminal session recording
+└── README.md
+```
 
 ## Attack Scenarios Covered
 
@@ -154,4 +154,5 @@ This project demonstrates the ability to analyze authentication logs, detect mul
 ## Author
 
 Minoli Silva  
+
 Aspiring Cybersecurity Analyst
